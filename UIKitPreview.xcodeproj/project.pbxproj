@@ -15,6 +15,7 @@
 		1E5365C32809D1400074A5AA /* ViewPreview.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E5365C22809D1400074A5AA /* ViewPreview.swift */; };
 		1E5365C52809D61B0074A5AA /* ViewControllerPreview.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E5365C42809D61B0074A5AA /* ViewControllerPreview.swift */; };
 		1E700B842814084C0016A88B /* CheckBoxButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E700B832814084C0016A88B /* CheckBoxButton.swift */; };
+		1E700B8628140B230016A88B /* CircleBoxButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E700B8528140B230016A88B /* CircleBoxButton.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -29,6 +30,7 @@
 		1E5365C42809D61B0074A5AA /* ViewControllerPreview.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewControllerPreview.swift; sourceTree = "<group>"; };
 		1E700B812813FC910016A88B /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		1E700B832814084C0016A88B /* CheckBoxButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckBoxButton.swift; sourceTree = "<group>"; };
+		1E700B8528140B230016A88B /* CircleBoxButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleBoxButton.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,6 +81,7 @@
 			isa = PBXGroup;
 			children = (
 				1E700B832814084C0016A88B /* CheckBoxButton.swift */,
+				1E700B8528140B230016A88B /* CircleBoxButton.swift */,
 			);
 			path = CheckBox;
 			sourceTree = "<group>";
@@ -154,6 +157,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				1E5365B32809C6E60074A5AA /* ViewController.swift in Sources */,
+				1E700B8628140B230016A88B /* CircleBoxButton.swift in Sources */,
 				1E5365C52809D61B0074A5AA /* ViewControllerPreview.swift in Sources */,
 				1E5365C32809D1400074A5AA /* ViewPreview.swift in Sources */,
 				1E5365AF2809C6E60074A5AA /* AppDelegate.swift in Sources */,
