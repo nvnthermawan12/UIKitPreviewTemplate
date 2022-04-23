@@ -7,8 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		1E15E0E8280F16E500336E04 /* CircleCheckBox.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E15E0E7280F16E400336E04 /* CircleCheckBox.swift */; };
-		1E15E0EA280F1F5000336E04 /* CheckBoxButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E15E0E9280F1F5000336E04 /* CheckBoxButton.swift */; };
 		1E5365AF2809C6E60074A5AA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E5365AE2809C6E60074A5AA /* AppDelegate.swift */; };
 		1E5365B12809C6E60074A5AA /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E5365B02809C6E60074A5AA /* SceneDelegate.swift */; };
 		1E5365B32809C6E60074A5AA /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E5365B22809C6E60074A5AA /* ViewController.swift */; };
@@ -19,8 +17,6 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		1E15E0E7280F16E400336E04 /* CircleCheckBox.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleCheckBox.swift; sourceTree = "<group>"; };
-		1E15E0E9280F1F5000336E04 /* CheckBoxButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckBoxButton.swift; sourceTree = "<group>"; };
 		1E5365AB2809C6E60074A5AA /* UIKitPreview.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = UIKitPreview.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1E5365AE2809C6E60074A5AA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		1E5365B02809C6E60074A5AA /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -69,8 +65,6 @@
 				1E5365B02809C6E60074A5AA /* SceneDelegate.swift */,
 				1E5365B22809C6E60074A5AA /* ViewController.swift */,
 				1E5365C22809D1400074A5AA /* ViewPreview.swift */,
-				1E15E0E7280F16E400336E04 /* CircleCheckBox.swift */,
-				1E15E0E9280F1F5000336E04 /* CheckBoxButton.swift */,
 				1E5365B72809C6EA0074A5AA /* Assets.xcassets */,
 				1E5365B92809C6EA0074A5AA /* LaunchScreen.storyboard */,
 				1E5365BC2809C6EA0074A5AA /* Info.plist */,
@@ -152,8 +146,6 @@
 				1E5365C52809D61B0074A5AA /* ViewControllerPreview.swift in Sources */,
 				1E5365C32809D1400074A5AA /* ViewPreview.swift in Sources */,
 				1E5365AF2809C6E60074A5AA /* AppDelegate.swift in Sources */,
-				1E15E0EA280F1F5000336E04 /* CheckBoxButton.swift in Sources */,
-				1E15E0E8280F16E500336E04 /* CircleCheckBox.swift in Sources */,
 				1E5365B12809C6E60074A5AA /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
