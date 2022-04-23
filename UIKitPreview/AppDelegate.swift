@@ -2,7 +2,7 @@
 //  AppDelegate.swift
 //  UIKitPreview
 //
-//  Created by IDN MEDIA on 15/04/22.
+//  Created by Novianto Hermawan on 15/04/22.
 //
 
 import UIKit
