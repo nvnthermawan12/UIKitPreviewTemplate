@@ -9,7 +9,7 @@ import UIKit
 import SwiftUI
 
 class ViewController: UIViewController {
-    
+    let checkBoxButton = CheckBoxButton(frame: CGRect(x: 70, y: 300, width: 70, height: 70))
     override func viewDidLoad() {
         super.viewDidLoad()
         view.backgroundColor = .systemBackground
@@ -17,6 +17,15 @@ class ViewController: UIViewController {
         label.text = "Hello World!"
         label.textColor = .black
         view.addSubview(label)
+        
+        //CheckBoxButton
+        view.addSubview(checkBoxButton)
+        let usek = UITapGestureRecognizer(target: self, action: #selector(diusek))
+        checkBoxButton.addGestureRecognizer(usek)
+    }
+    
+    @objc func diusek() {
+        checkBoxButton.toggle()
     }
 }
 
