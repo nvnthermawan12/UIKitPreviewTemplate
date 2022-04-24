@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1E495E0D2814BD6700B593BE /* CheckListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E495E0C2814BD6700B593BE /* CheckListView.swift */; };
 		1E5365AF2809C6E60074A5AA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E5365AE2809C6E60074A5AA /* AppDelegate.swift */; };
 		1E5365B12809C6E60074A5AA /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E5365B02809C6E60074A5AA /* SceneDelegate.swift */; };
 		1E5365B32809C6E60074A5AA /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E5365B22809C6E60074A5AA /* ViewController.swift */; };
@@ -14,9 +15,11 @@
 		1E5365BB2809C6EA0074A5AA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1E5365B92809C6EA0074A5AA /* LaunchScreen.storyboard */; };
 		1E5365C32809D1400074A5AA /* ViewPreview.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E5365C22809D1400074A5AA /* ViewPreview.swift */; };
 		1E5365C52809D61B0074A5AA /* ViewControllerPreview.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E5365C42809D61B0074A5AA /* ViewControllerPreview.swift */; };
+		1E700B8928149CA40016A88B /* RadioButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E700B8828149CA40016A88B /* RadioButton.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		1E495E0C2814BD6700B593BE /* CheckListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckListView.swift; sourceTree = "<group>"; };
 		1E5365AB2809C6E60074A5AA /* UIKitPreview.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = UIKitPreview.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1E5365AE2809C6E60074A5AA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		1E5365B02809C6E60074A5AA /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -27,6 +30,7 @@
 		1E5365C22809D1400074A5AA /* ViewPreview.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewPreview.swift; sourceTree = "<group>"; };
 		1E5365C42809D61B0074A5AA /* ViewControllerPreview.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewControllerPreview.swift; sourceTree = "<group>"; };
 		1E700B812813FC910016A88B /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		1E700B8828149CA40016A88B /* RadioButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RadioButton.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +64,7 @@
 		1E5365AD2809C6E60074A5AA /* UIKitPreview */ = {
 			isa = PBXGroup;
 			children = (
+				1E700B8728149C3F0016A88B /* radiobutton+label */,
 				1E5365C42809D61B0074A5AA /* ViewControllerPreview.swift */,
 				1E5365AE2809C6E60074A5AA /* AppDelegate.swift */,
 				1E5365B02809C6E60074A5AA /* SceneDelegate.swift */,
@@ -70,6 +75,15 @@
 				1E5365BC2809C6EA0074A5AA /* Info.plist */,
 			);
 			path = UIKitPreview;
+			sourceTree = "<group>";
+		};
+		1E700B8728149C3F0016A88B /* radiobutton+label */ = {
+			isa = PBXGroup;
+			children = (
+				1E700B8828149CA40016A88B /* RadioButton.swift */,
+				1E495E0C2814BD6700B593BE /* CheckListView.swift */,
+			);
+			path = "radiobutton+label";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -145,6 +159,8 @@
 				1E5365B32809C6E60074A5AA /* ViewController.swift in Sources */,
 				1E5365C52809D61B0074A5AA /* ViewControllerPreview.swift in Sources */,
 				1E5365C32809D1400074A5AA /* ViewPreview.swift in Sources */,
+				1E495E0D2814BD6700B593BE /* CheckListView.swift in Sources */,
+				1E700B8928149CA40016A88B /* RadioButton.swift in Sources */,
 				1E5365AF2809C6E60074A5AA /* AppDelegate.swift in Sources */,
 				1E5365B12809C6E60074A5AA /* SceneDelegate.swift in Sources */,
 			);
